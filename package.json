@@ -1,0 +1,26 @@
+{
+  "name": "chocogram",
+  "version": "1.0.0",
+  "description": "Instagram clone with \"Express\" + \"Prisma\" + \"React\" and \"React Native\"",
+  "scripts": {
+    "dev": "nodemon --exec npm run babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeonghoheo/Chocogram.git"
+  },
+  "author": "Jeongho Heo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeonghoheo/Chocogram/issues"
+  },
+  "homepage": "https://github.com/jeonghoheo/Chocogram#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.3"
+  }
+}
